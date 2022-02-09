@@ -1,6 +1,8 @@
-const number = prompt("Input a number");
 
-switch(number){
+
+const numar = Number( prompt('Input a number'));
+
+switch(numar){
 
     case 0:
         alert("Zero");

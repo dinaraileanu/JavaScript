@@ -181,5 +181,5 @@ numar.splice(4,1, "0", "0","0");
 console.log(numar);*/
 
 //exercitiul8
-const color =[“red”, “green”, “blue”];
+//const color =[“red”, “green”, “blue”];
 

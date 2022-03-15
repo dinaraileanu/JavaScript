@@ -134,6 +134,7 @@ console.log(i);
 }*/
 //Arrays
 //Exercitiul 3
+
 /*let styles = ["Jazz", "Blues"];
 console.log(styles);
 styles.push("Rock and Roll");
@@ -144,6 +145,7 @@ alert(styles.shift());
 console.log(styles);
 styles.unshift("Rap", "Reggy");
 console.log(styles);*/
+
 //Exercitiul 1
 //let numar = ["1",'2',"3","4","5"];
 /*for (let i = 0; i < numar.length; i++) {
@@ -175,11 +177,23 @@ console.log(styles);*/
   }
   
   alert( sumInput() );*/
-  //exercitiul 5
+  //exercitiul 6
 /*let numar = [1, 2, 3, 4, 5, 6, 7, 8, 9];  
 numar.splice(4,1, "0", "0","0");
 console.log(numar);*/
 
-//exercitiul8
-//const color =[“red”, “green”, “blue”];
+//exercitiul 5
+/*function convert(fn, array) {
+  const newArray = []
+  for (let i = 0; i < array.length; ++i) {
+    newArray.push(fn(array[i]))
+  }
+  return newArray
+}*/
+//
+
+
+ 
+
+
 

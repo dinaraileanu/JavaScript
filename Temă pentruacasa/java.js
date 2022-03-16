@@ -233,13 +233,37 @@ console.log(user);*/
   surname:"Smith"
 };
 console.log(user);*/
+/*function User() {
+
+  this.name = "John";
+
+  return { name: "Peter" }; 
+}
+
+console.log( new User().name );*/
 /*let user = {     
   name: "John",
   surname:"Smith"
 };
 delete user.name;
 console.log(user);*/
+
 //exercitiul 2
+/*let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+function SumSalary(salaries){
+  let sum = 0;
+  for(let salariu of Object.values(salaries))  
+  sum+=salariu;
+  return(sum);
+}
+console.log(SumSalary(salaries));*/
+//exercitiul 3
+
 
 
 

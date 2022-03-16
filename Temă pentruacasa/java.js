@@ -191,6 +191,58 @@ console.log(numar);*/
   return newArray
 }*/
 //
+//exercitiul 10
+/*
+const num =[8, 7,  2,  2,  3, 4, 2,  5, 5, 6, 7, 8, 5, 9, 0, 1];
+function uniqueSorted(numar){
+  var obj = {},
+      out=[];
+  for (var i = 0; i < num.length; i++) {
+    var str = num[i];
+    obj[str] = true; // запомнить строку в виде свойства объекта
+  }
+     for (i in obj) {
+       out.push(i);
+     }
+     return out;
+ // return Object.keys(obj); // вместо второго цикла можно так
+}
+result = uniqueSorted(num);
+alert(num); // 
+alert(result);*/
+
+//exercitiul 9
+/*var num =[1, "a", 2, null, 3, undefined, 4, {}, 5, 6, `word`, 7, 8, false, 9, 100];
+
+var ap = num.filter(function(number) {
+  return number < 10;
+});
+alert(num);*/
+
+//Object
+
+//exercitiul 1
+/*let user = new Object();
+console.log(user);*/
+/*let user = {     
+  name: "John"
+};
+console.log(user);*/
+/*let user = {     
+  name: "John",
+  surname:"Smith"
+};
+console.log(user);*/
+/*let user = {     
+  name: "John",
+  surname:"Smith"
+};
+delete user.name;
+console.log(user);*/
+//exercitiul 2
+
+
+
 
 
  
